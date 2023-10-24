@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flask Welcome</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="{{ url_for('static', filename='js/myScript.js') }}"></script>
+</head>
+
+<body>
+
+    <!-- Navbar (Sits on top) -->
+    <div class="w3-top w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="#home" class="w3-bar-item w3-button"><strong>CG</strong> Flask Demo</a>
+
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
